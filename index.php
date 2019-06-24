@@ -1,113 +1,14 @@
 <title>AnicountID</title>
+<link rel="stylesheet" type="text/css" href="lib/style.css">
 <?php $start_time = microtime(true); ?>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 
 <!-- <script type="text/javascript" src="lib/rain.js"></script> -->
 <style>
- div.rounded {
-   
-   border: 3px dotted gray;
-   margin: auto;
- width: 70%;
- color: #000000;
- font-weight: bold;
-   padding: 1px;
-   
- -moz-border-radius: 5px;
-   -webkit-border-radius: 10px; }
-
-   div.kotak {
-	background-color: maroon;
-    margin: auto;
-  width: 20%;
-	color: #000000;
-    padding: 1px;
-    
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 20px; }    
-
-   img {
-  border-radius: 50%;
-  border: 2px solid gold;
-  padding: 1px;
- 
-}
-img:hover {
-  -webkit-transform: rotate(1000deg) scale(1.0);
-	transform: rotate(1000deg) scale(1.0);
-	-webkit-transition: .8s ease-in-out;
-	transition: .8s ease-in-out;
-}
-
-
-#steal a{
-	padding:15px 15px;
-	margin:1;
-	background:#000000;
-	text-decoration:none;
-	letter-spacing:1px;
-	-moz-border-radius: 10px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
-}
-#steal a:hover{
-	background:gray;
-	border-bottom:5px solid #red;
-	border-top:5px solid #red;
-}
-
-section {
-  float: left;
-  margin: auto;
-  width: 50%;
-}
-html, body{
-    margin: 0;
-
-    padding: 0;
-
-    min-width: 100%;
-    width: 100%;
-    max-width: 100%;
-
-    min-height: 100%;
-    height: 100%;
-    max-height: 100%;
-}
-a {
-  color: white;
-}
-
-body { 
-  background: black url("inc/a.png") no-repeat fixed center; 
-}
-
-.toto {
-   text-align: center;
- }
-.toto pre {
-  display: inline-block;
-  text-align: left;
+  body { 
+   background: black url("inc/a.png") no-repeat fixed center; 
  }
  
-.koceng {
-   text-align: center;
- }
-
-.koceng pre {
-  display: inline-block;
-  text-align: left;
- } 
- .intro {
-  margin: auto;
-  background-color: #f7f3f3;
-  width: 30%;
-  
-  padding: 10px;
-  -moz-border-radius: 5px;
-	-webkit-border-radius: 20px;
-}
-
-A.class2 {color:blue;}
-
 </style>
 <center>
 <div class="toto">

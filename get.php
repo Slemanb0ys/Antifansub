@@ -47,6 +47,16 @@
   body { 
   background: black url("b.png") no-repeat fixed center; 
 }
+
+.intro {
+  margin: auto;
+  background-color: #f7f3f3;
+  width: 30%;
+  
+  padding: 10px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 20px;
+}
 </style>
 
 <?php
@@ -103,11 +113,13 @@ else
 
 ?>
 </div></div></div>
-<p>
-<center>
-<font face=consolas>
-&copy;
-<a href="http://205.134.241.149/~kireif5/info.php" rel="nofollow" target="_blank">server status</a>
+<p><center>
+ <div class="intro">
+<font color=crimson face=consolas size=3>
+
+<b>&copy; Sin,</b>
+
 <br><font size="3" color="gray">
-feel free to pull,issues,or stealing at:<br><font color=skyblue> https://github.com/sinkaroid/anitoki</font>
-</font>   
+feel free to pull,issues,or stealing at:<br><font color=blue> https://github.com/sinkaroid/anitoki</font>
+</font>
+</div>   
