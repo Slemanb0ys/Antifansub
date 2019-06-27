@@ -1,4 +1,4 @@
-<title>AnicountID</title>
+<title>AntifansubID</title>
 <link rel="stylesheet" type="text/css" href="lib/style.css">
 <?php $start_time = microtime(true); ?>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
@@ -14,12 +14,13 @@
 <div class="toto">
 <font face="courier" size="4" color="red">
 <pre style="text-align: left;">
-     _          _                                      _   ___ ____  
-    / \   _ __ (_)_ __ ___   ___  ___ ___  _   _ _ __ | |_|_ _|  _ \ 
-   / _ \ | '_ \| | '_ ` _ \ / _ \/ __/ _ \| | | | '_ \| __|| || | | |
-  / ___ \| | | | | | | | | |  __/ (_| (_) | |_| | | | | |_ | || |_| |
- /_/   \_\_| |_|_|_| |_| |_|\___|\___\___/ \__,_|_| |_|\__|___|____/ 
-                               Portal Anime Count based on Indonesian time.
+                 _   _ ______                    _     
+     /\         | | (_)  ____|                  | |    
+    /  \   _ __ | |_ _| |__ __ _ _ __  ___ _   _| |__  
+   / /\ \ | '_ \| __| |  __/ _` | '_ \/ __| | | | '_ \ 
+  / ____ \| | | | |_| | | | (_| | | | \__ \ |_| | |_) |
+ /_/    \_\_| |_|\__|_|_|  \__,_|_| |_|___/\__,_|_.__/ 
+                                  Your coins end here.
 </pre></div>
 <center>
 <?php
@@ -70,6 +71,6 @@ else
 (<a href="lib/info.php" rel="nofollow" target="_blank" class="class2">server status</a>) | <font size="3" color="green">
 scraped in <?php echo(number_format(microtime(true) - $start_time, 2)); ?> sec.</font>
 <br><font size="3" color="gray">
-feel free to pull,issues,or stealing at:<br><font color=blue> https://github.com/sinkaroid/anitoki</font>
+feel free to pull,issues,or stealing at:<br><font color=blue> https://github.com/sinkaroid/antifansub</font>
 </font>
 </div>   

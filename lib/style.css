@@ -70,10 +70,7 @@ div.rounded {
    color: white;
  }
  
- body { 
-   background: black url("inc/a.png") no-repeat fixed center; 
- }
- 
+
  .toto {
 	text-align: center;
   }
@@ -102,3 +99,19 @@ div.rounded {
  
  A.class2 {color:blue;}
  
+ .memek {
+	margin: auto;
+	background-color: #f7f3f3;
+	width: 50%;
+	
+	padding: 10px;
+	-moz-border-radius: 5px;
+	  -webkit-border-radius: 30px;
+  }
+  
+  .bokong {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	padding: 1px;
+  }

@@ -1,2 +1,2 @@
-# anitoki
-`curl > preg_match > getFinalurl`
+# antifansub
+> bringin end the fansub
