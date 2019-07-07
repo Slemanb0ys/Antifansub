@@ -1,12 +1,13 @@
 <title>AntifansubID</title>
 <link rel="stylesheet" type="text/css" href="lib/style.css">
 <?php $start_time = microtime(true); ?>
+<center><br><div id="steal"><a href="list" rel="nofollow" target="_blank"><font face=Ubuntu size="2" color="white"><b>animelist<b/></font></a></div></center>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 
 <!-- <script type="text/javascript" src="lib/rain.js"></script> -->
 <style>
   body { 
-   background: black url("inc/a.png") no-repeat fixed center; 
+   background: black url("inc/a.jpg") no-repeat fixed center; 
  }
  
 </style>

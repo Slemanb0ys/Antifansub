@@ -1,4 +1,5 @@
-<title>Antifansub | Download</title>
+<title>Antifansub | Series</title>
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
 <style>
 .memek {
   margin: auto;
@@ -35,18 +36,18 @@
     -webkit-border-radius: 10px; }
     
     div.kotak {
-	background-color: silver;
+	background-color: white;
     margin: auto;
-  width: 30%;
+  width: 40%;
 	color: #000000;
-    padding: 1px;
+    padding: 10px;
     
 	-moz-border-radius: 5px;
-	-webkit-border-radius: 20px; }   
-   
+  -webkit-border-radius: 20px; }   
+  
   body { 
-  background: black url("inc/a.jpg") no-repeat fixed center; 
-}
+   background: black url("http://localhost/antifansub/inc/bg.jpg") no-repeat fixed center; 
+ }
 
 .intro {
   margin: auto;
@@ -58,9 +59,13 @@
 	-webkit-border-radius: 20px;
 }
 </style>
-
+<font face=Ubuntu>
 <?php
-require 'inc/str.php';
+$form = '<form action="series.php" method="get">
+<input type="hidden" style="width:40%;" name="anti"><br>
+<input type="hidden" name="fansub" value="SUCK">
+</center>
+</form>';
 
 print $form;
 
@@ -77,42 +82,27 @@ if(curl_errno($curl))
  
 curl_close($curl);
 
-print '<div class="memek"><br>';
-//anime info    
+  
 function wordFilter3($text)
 {
     $ambilkata = $text;
-    $ambilkata = str_replace('<p><span>', '<br>', $ambilkata);
-    $ambilkata = str_replace('</span></p>', '', $ambilkata);
-    $ambilkata = str_replace('Producers', '</p>Producers', $ambilkata);
-    $ambilkata = str_replace('Genre', '<p hidden>', $ambilkata);
+    $ambilkata = str_replace('<a href="', '<a href="/antifansub/get.php?anti=', $ambilkata);
+    $ambilkata = str_replace('" target', '&fansub=SUCK" target', $ambilkata);
     return $ambilkata;
 }
 
-$regex = '/<div class="info">(.*?)<\/div>/s';
+$regex = "/<div class='sinopc'>(.*?)<div class='disqusmen'>/s";
 if ( preg_match($regex, $page, $list) )
 
-    echo '<div class="kotak"><center>',wordFilter3($list[0]),'</div>'; 
+    echo '<div class="kotak">',wordFilter3($list[0]),'</div>'; 
 
-//sinopsis
-$regex = '/<div class="cover">(.*?)<\/div>/s';
-if ( preg_match($regex, $page, $list) )
-
-    echo '<center>',$list[0],'</div>'; 
-
-
-//link    
-$regex = '/<div class="smokeddl">(.*?)<div class="anito-shortlink" id=(.*?)">/s';
-if ( preg_match($regex, $page, $list) )
-	
-    echo '<center><div class="rounded">',$list[0],'</div></div><br>'; 
 else 
     print "Not found";
 
 }
 
 ?>
-</div></div></div>
+</div></div>
 <p><center>
  <div class="intro">
 <font color=crimson face=consolas size=3>
