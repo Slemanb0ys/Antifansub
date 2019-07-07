@@ -17,7 +17,7 @@ $ cd target
 $ ./a.sh
 ```
 
-another part of us:
+list:
 - [/sinkaroid/anikyojin](https://github.com/sinkaroid/anikyojin)
 - [/sinkaroid/Makise](https://github.com/sinkaroid/Makise)
 - [/sinkaroid/ani-decrypter](https://github.com/sinkaroid/ani-decrypter)
