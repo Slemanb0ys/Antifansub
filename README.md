@@ -2,8 +2,7 @@
 ![](https://1.bp.blogspot.com/-3jqkqR26s7I/XSJEqV_uV6I/AAAAAAAAJkI/GDRKcDtMc4Id1enVuxr4UTmdjBdsErfewCLcBGAs/s320/Screenshot_26.png)  
 ***bringin end the fansub***
 
-**AntifansubID** - Never waste your time again, now i create a Trash tools do autobypass,scrap,decrypt and find the final url (*based on animeDB in Indonesia Fansubber)*, then we parsing it to our repo, I choose some of the best among them, I didnt pick some fansub who did the fastsub (trashsub)  
-
+**AntifansubID** - i create a Trash tools do autobypass,scrap,decrypt and find the final url (*based on animeDB in Indonesia Fansubber*), then we parsing it to our repo, I choose some of the best among them.  
 ```sh
 $ cd target
 $ ./a.sh
