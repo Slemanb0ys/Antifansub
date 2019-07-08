@@ -4,14 +4,6 @@
 
 **AntifansubID** - Never waste your time again, now i create a Trash tools do autobypass,scrap,decrypt and find the final url (*based on animeDB in Indonesia Fansubber)*, then we parsing it to our repo, I choose some of the best among them, I didnt pick some fansub who did the fastsub (trashsub)  
 
-
->**a**: did u hate fansub?  
->**me**: no,  
->**a**: then, why this u called antifansub?  
->**me**: i never hate everyone, i just hate their bullshit popups and another trash ads  
-
-
-## cURL requests
 ```sh
 $ cd target
 $ ./a.sh
