@@ -1,4 +1,6 @@
-# Antifansub
+# Antifansub  
+![](https://img.shields.io/badge/codename-corpse--princ3ss-hotpink.svg)  
+
 ![](https://1.bp.blogspot.com/-3jqkqR26s7I/XSJEqV_uV6I/AAAAAAAAJkI/GDRKcDtMc4Id1enVuxr4UTmdjBdsErfewCLcBGAs/s320/Screenshot_26.png)  
 ***bringin end the fansub***
 
