@@ -6,7 +6,7 @@ function wordFilter($text)
     $ambilkata = $text;
 
     //open element
-	$ambilkata = str_replace('<i class="fa fa-tag">', '</font>] </div></div><hr color=gold width=20%><br><section><p hidden>', $ambilkata);
+	$ambilkata = str_replace('<i class="fa fa-tag">', '</font>] </div></div><hr color=red width=20%><br><section><p hidden>', $ambilkata);
     $ambilkata = str_replace('</p>', '', $ambilkata);
     $ambilkata = str_replace('<p>', '', $ambilkata);
     $ambilkata = str_replace('<div class="thumb">', '<div class="kotak">', $ambilkata);

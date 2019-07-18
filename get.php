@@ -1,4 +1,6 @@
 <title>Antifansub | Download</title>
+<link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+
 <style>
 .memek {
   margin: auto;

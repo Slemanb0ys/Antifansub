@@ -11,7 +11,7 @@
    background: black url("http://localhost/antifansub/inc/bg.jpg") no-repeat fixed center; 
  }
  a {
-   color: deeppink;
+   color: green;
  }
 
  .sino {
@@ -61,7 +61,7 @@
   </style>
 
 <?php
-echo '<font face=Ubuntu color=gold>
+echo '<font face=Ubuntu color=green>
 <center>[animelist]</center><p>
 <div class="infox">';
 //ambil str
