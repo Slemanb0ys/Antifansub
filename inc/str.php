@@ -28,6 +28,6 @@ function wordFilter($text)
 
 $form = '<form action="get.php" method="get">
 <input type="hidden" style="width:40%;" name="anti"><br>
-<input type="hidden" name="fansub" value="SUCK">
+<input type="hidden" name="fansub">
 </center>
 </form>';

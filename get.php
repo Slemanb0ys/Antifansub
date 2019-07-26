@@ -66,7 +66,7 @@ require 'inc/str.php';
 
 print $form;
 
-if(isset($_GET['fansub'])){
+if(isset($_GET['anti'])){
 $anti = $_GET['anti'];
 $curl = curl_init($anti); 
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE); 
