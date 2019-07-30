@@ -1,12 +1,12 @@
 <title>AntifansubID</title>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="lib/style.css">
+<link rel="stylesheet" type="text/css" href="/antifansub/inc/style.css">
 <?php $start_time = microtime(true); ?>
 
-<script type="text/javascript" src="lib/rain.js"></script> 
+<script type="text/javascript" src="/antifansub/inc/rain.js"></script> 
 <style>
   body { 
-   background: black url("inc/a.jpg") no-repeat fixed center; 
+   background: black url("/antifansub/inc/a.png") no-repeat fixed center; 
  }
  
 </style>
@@ -50,20 +50,22 @@ echo '</font>';
 <div class="koceng">
 <font face="courier" size="3" color="gray">
 <pre>
-> static site to getData from many fansub
-> put params <font color=red>/list or ?list</font> to view all library
+available params : <font color=red>?list, ?search, ?series</font>
 </pre>
 </div>
 </font>
-
+<form action="/antifansub/page/list/anime.php" method="get">
+<input type="show" class="bordergaya" style="width:10%;" placeholder="series" name="q"><br>
+</form>
 <center>
 <form action="page.php" method="get">
 <input type="hidden" style="width:10%;" placeholder="page berapa" name="page"><br>
 </form>
+</font>
 
 <?php
-
-require 'inc/str.php';
+echo'<font color=gold>';
+require_once(realpath(dirname(__FILE__) . '/../inc/str.php'));
 
 if(isset($_GET['x'])){
 
@@ -92,19 +94,19 @@ else
 }
 
 
-// DONE MULTIPLE PAGE CURL BITCH
+
 // usage http://localhost/authremote/antk.php?memek=12(etc.)
 ?>
 
 <div class="page">
-<a href="/antifansub/page.php?x=1">1</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=2"><span class="pg">2</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=3"><span class="pg">3</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=4"><span class="pg">4</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=5"><span class="pg">5</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=6"><span class="pg">6</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=7"><span class="pg">7</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=8"><span class="pg">8</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=9"><span class="pg">9</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=10"><span class="pg">10</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=11"><span class="pg">&gt;</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page.php?x=87"><span class="pg">Last</span></a> </div>
+<a href="/antifansub/page?x=1">1</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=2"><span class="pg">2</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=3"><span class="pg">3</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=4"><span class="pg">4</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=5"><span class="pg">5</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=6"><span class="pg">6</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=7"><span class="pg">7</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=8"><span class="pg">8</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=9"><span class="pg">9</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=10"><span class="pg">10</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=11"><span class="pg">&gt;</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=87"><span class="pg">Last</span></a> </div>
 <div>
 <p>
  <div class="intro">
 <font color=crimson face=consolas size=3>
 
 <b>&copy; Sin,</b>
-(<a href="lib/info.php" rel="nofollow" target="_blank" class="class2">server status</a>) | <font size="3" color="green">
+(<a href="inc/info.php" rel="nofollow" target="_blank" class="class2">server status</a>) | <font size="3" color="green">
 scraped in <?php echo(number_format(microtime(true) - $start_time, 2)); ?> sec.</font>
 <br><font size="3" color="gray">
 feel free to pull,issues,or stealing at:<br><font color=blue> https://github.com/sinkaroid/antifansub</font>

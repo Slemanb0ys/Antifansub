@@ -115,3 +115,21 @@ div.rounded {
 	width: 100%;
 	padding: 1px;
   }
+
+  .bordergaya{
+	background:black;
+	color:white;
+	margin:0 10px;
+	font-family:Ubuntu Mono;
+	font-size:16px;
+	border:2px solid #2d2b2b;
+
+}
+.bordergaya:hover{
+	background:#2d2b2b;
+	color:white;
+	margin:0 10px;
+	font-family:Ubuntu Mono;
+	font-size:16px;
+	border:2px solid crimson;
+}

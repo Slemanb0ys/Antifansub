@@ -1,12 +1,12 @@
 <title>AntifansubID</title>
 <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="lib/style.css">
+<link rel="stylesheet" type="text/css" href="/antifansub/inc/style.css">
 <?php $start_time = microtime(true); ?>
 
-<script type="text/javascript" src="lib/rain.js"></script> 
+<script type="text/javascript" src="/antifansub/inc/rain.js"></script> 
 <style>
   body { 
-   background: black url("inc/a.jpg") no-repeat fixed center; 
+   background: black url("/antifansub/inc/a.png") no-repeat fixed center; 
  }
  
 </style>
@@ -46,12 +46,11 @@ echo '</font>';
 
 
 
-<center><br><div id="steal"><a href="list" rel="nofollow" target="_blank"><font face=Ubuntu size="2" color="white"><b>animelist<b/></font></a></div></center>
+<center><br><div id="steal"><a href="index.php" rel="nofollow" target="_blank"><font face=Ubuntu size="2" color="white"><b>animelist<b/></font></a></div></center>
 <div class="koceng">
 <font face="courier" size="3" color="gray">
 <pre>
-> static site to getData from many fansub
-> put params <font color=red>/list or ?list</font> to view all library
+available params : <font color=red>?list, ?search, ?series</font>
 </pre>
 </div>
 </font>
@@ -63,7 +62,8 @@ echo '</font>';
 
 <?php
 
-require 'inc/str.php';
+require 'search.php';
+
 
 if(isset($_GET['q'])){
 
@@ -93,3 +93,7 @@ if(isset($_GET['q'])){
       print "error";
       
   }
+?>
+  <div class="page">
+<a href="/antifansub/page?x=1">1</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=2"><span class="pg">2</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=3"><span class="pg">3</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=4"><span class="pg">4</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=5"><span class="pg">5</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=6"><span class="pg">6</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=7"><span class="pg">7</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=8"><span class="pg">8</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=9"><span class="pg">9</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=10"><span class="pg">10</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=11"><span class="pg">&gt;</span></a>&nbsp;&nbsp;&nbsp;<a href="/antifansub/page?x=87"><span class="pg">Last</span></a> </div>
+<div>

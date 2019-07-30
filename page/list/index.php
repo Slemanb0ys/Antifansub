@@ -8,7 +8,7 @@
 
 
   body { 
-   background: black url("http://localhost/antifansub/inc/bg.jpg") no-repeat fixed center; 
+   background: black url("/antifansub/inc/bg.png") no-repeat fixed center; 
  }
  a {
    color: green;
@@ -75,7 +75,7 @@ function wordFilter($text)
     //openurl
        //openurl
       
-       $ambilkata = str_replace('href="', 'href="/antifansub/list/series.php?anti=', $ambilkata);
+       $ambilkata = str_replace('href="', 'href="/antifansub/page/list/series.php?anti=', $ambilkata);
        $ambilkata = str_replace('" rel="', '&fansub=SUCK" rel=', $ambilkata);
     
     return $ambilkata;

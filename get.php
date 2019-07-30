@@ -47,7 +47,7 @@
 	-webkit-border-radius: 20px; }   
    
   body { 
-  background: black url("inc/a.jpg") no-repeat fixed center; 
+  background: black url("inc/a.png") no-repeat fixed center; 
 }
 
 .intro {

@@ -46,7 +46,7 @@
   -webkit-border-radius: 20px; }   
   
   body { 
-   background: black url("http://localhost/antifansub/inc/bg.jpg") no-repeat fixed center; 
+   background: black url("/antifansub/inc/bg.png") no-repeat fixed center; 
  }
 
 .intro {

@@ -1,5 +1,5 @@
 # Antifansub  
-![](https://img.shields.io/badge/codename-corpse--princ3ss-hotpink.svg) ![](https://img.shields.io/badge/php-%3E%3D5.3.9-blue.svg) ![](https://img.shields.io/github/last-commit/sinkaroid/antifansub)
+![](https://img.shields.io/badge/codename-antk-hotpink) ![](https://img.shields.io/badge/php-%3E%3D5.3.9-blue.svg) ![](https://img.shields.io/github/last-commit/sinkaroid/antifansub)
 
 ![](https://1.bp.blogspot.com/-3jqkqR26s7I/XSJEqV_uV6I/AAAAAAAAJkI/GDRKcDtMc4Id1enVuxr4UTmdjBdsErfewCLcBGAs/s320/Screenshot_26.png)  
 ***bringin end the fansub***
