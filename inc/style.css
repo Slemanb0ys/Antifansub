@@ -44,8 +44,8 @@ div.rounded {
  }
  #steal a:hover{
 	 background:gray;
-	 border-bottom:5px solid #red;
-	 border-top:5px solid #red;
+	 border-bottom:5px solid red;
+	 border-top:5px solid red;
  }
  
  section {
