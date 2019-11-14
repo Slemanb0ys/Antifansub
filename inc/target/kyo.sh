@@ -1,1 +1,0 @@
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" https://anikyojin.net/
